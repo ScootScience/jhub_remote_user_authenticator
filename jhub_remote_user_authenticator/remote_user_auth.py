@@ -17,6 +17,7 @@ class RemoteUserLoginHandler(BaseHandler):
             raise web.HTTPError(401)
 
         user = self.user_from_username(remote_user)
+	self.clear_login_cookie()
         self.set_login_cookie(user)
         next_url = self.get_next_url(user)
         self.redirect(next_url)

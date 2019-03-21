@@ -1,3 +1,10 @@
+
+--------------------------------
+ScootScience has forked and modified this package slightly to work with our Nginx/Shibboleth authenticating proxy on jupyter.scootscience.com
+--------------------------------
+
+
+
 ====================================
 Jupyterhub REMOTE_USER Authenticator
 ====================================
